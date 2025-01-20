@@ -1,0 +1,39 @@
+.parent {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  position: relative;
+}
+.box1 {
+  width: 24px;
+  height: 24px;
+  background-color: lawngreen;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box2 {
+  width: 24px;
+  height: 24px;
+  background-color: lawngreen;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.box3 {
+  width: 24px;
+  height: 24px;
+  background-color: lawngreen;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box4 {
+  width: 24px;
+  height: 24px;
+  background-color: lawngreen;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(4, 4, 87);
+  position: relative;
+  height: 100vh;
+}
+
+.circle1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: rgb(4, 4, 87);
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}

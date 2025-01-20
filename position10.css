@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 300px;
+  height: 500px;
+  background-color: #f5f4f4;
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: relative;
+  padding: 20px;
+  margin: 20px 50px;
+}
+img {
+  width: 85%;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+section > div {
+  position: absolute;
+  top: 281px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+h1 {
+}
+h1 + p {
+  font-size: 14px;
+}
+.price {
+  font-size: 18px;
+  color: orangered;
+}
+button {
+  position: absolute;
+  display: inline-block;
+  background-color: orangered;
+  color: #f5f4f4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  top: 410px;
+  border: 0.5px solid whitesmoke;
+  cursor: pointer;
+}
